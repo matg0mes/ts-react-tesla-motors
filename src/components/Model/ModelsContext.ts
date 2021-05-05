@@ -2,8 +2,8 @@ import React from "react";
 
 interface CarModel 
 
-interface ModelsContext {
-    wrapperRef: 
-}
+// interface ModelsContext {
+//     wrapperRef: 
+// }
 
-export default React.createContext<ModelsContext>({} as ModelsContext);
+// export default React.createContext<ModelsContext>({} as ModelsContext);
