@@ -1,4 +1,5 @@
 import React from "react";
+import UniqueOverlay from "../UniqueOverlay";
 import DefaultOverlayContent from "../DefaultOverlayContent";
 import { ModelsSection, ModelsWrapper } from "../Model";
 
@@ -31,6 +32,8 @@ const Page: React.FC = () => {
           ))}
         </div>
       </ModelsWrapper>
+
+      <UniqueOverlay />
     </Container>
   );
 };

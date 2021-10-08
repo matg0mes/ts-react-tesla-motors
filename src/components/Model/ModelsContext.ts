@@ -8,7 +8,7 @@ export interface CarModel {
 
 interface ModelsContext {
   wrapperRef: React.RefObject<HTMLElement>;
-  registeredModels: CarModel[];
+  registeredModels: CarModel[]; 
   registerModel: (model: CarModel) => void;
   unregisteredModel: (modelName: string) => void;
   getModelByName: (modelName: string) => CarModel | null;
